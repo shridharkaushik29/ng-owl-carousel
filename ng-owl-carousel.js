@@ -34,7 +34,7 @@ angular.module('owlCarousel', [])
                         }
 
                         if (attr.owlInit) {
-                            $scope.$eval(owlInit, {
+                            $scope.$eval(attr.owlInit, {
                                 $owl: owl
                             })
                         }
