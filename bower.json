@@ -1,27 +1,13 @@
 {
-  "name": "ng-owl-carousel",
-  "authors": [
+  "name": "ng-owl-carousel", "authors": [
     "shridharkaushik29 <shridharkaushik29@gmail.com>"
-  ],
-  "description": "Angular JS Directives for owl-carousel2",
-  "main": "ng-owl-carousel",
-  "keywords": [
-    "ng-owl-carousel",
-    "angular-carousel",
-    "angular",
-    "owl",
-    "carousel"
-  ],
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "owl.carousel": "owl-carousel2#^2.2.1"
+  ], "description": "Angular JS Directives for owl-carousel2", "main": [
+        "owl.carousel/assets/owl.carousel.css", "owl.carousel/owl.carousel.js", "ng-owl-carousel.js"
+    ], "keywords": [
+    "ng-owl-carousel", "angular-carousel", "angular", "owl", "carousel"
+  ], "license": "MIT", "homepage": "", "ignore": [
+    "**/.*", "node_modules", "bower_components", "test", "tests"
+  ], "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
